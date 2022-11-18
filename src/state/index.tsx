@@ -81,9 +81,10 @@ export default function AppStateProvider(props: React.PropsWithChildren<{}>) {
     contextValue = {
       ...contextValue,
       getToken: async (user_identity, room_name) => {
-        const endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || '/token';
+        // const endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || '';
+        const endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || '';
 
-        return fetch(endpoint, {
+        return fetch(`${endpoint}/token`, {
           method: 'POST',
           headers: {
             'content-type': 'application/json',
@@ -97,9 +98,9 @@ export default function AppStateProvider(props: React.PropsWithChildren<{}>) {
       },
       updateRecordingRules: async (room_sid, rules) => {
         // const endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || '/recordingrules';
-        const endpoint = '/recordingrules';
+        const endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || '';
 
-        return fetch(endpoint, {
+        return fetch(`${endpoint}/recordingrules`, {
           headers: {
             'Content-Type': 'application/json',
           },

@@ -47,6 +47,7 @@ export default function Menu(props: { buttonClassName?: string }) {
   return (
     <>
       <Button
+        style={{ display: 'none' }}
         onClick={() => setMenuOpen(isOpen => !isOpen)}
         ref={anchorRef}
         className={props.buttonClassName}

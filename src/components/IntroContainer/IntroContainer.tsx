@@ -12,7 +12,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: 'rgb(40, 42, 43)',
+    //background: 'rgb(40, 42, 43)',
+    background: 'rgb(244, 245, 247)',
     height: '100%',
   },
   container: {
@@ -41,7 +42,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundImage: Swoosh,
+    //backgroundImage: Swoosh,
+    backgroundColor: '#1f1f5c',
     backgroundSize: 'cover',
     width: '296px',
     [theme.breakpoints.down('sm')]: {
@@ -108,7 +110,7 @@ const IntroContainer = (props: IntroContainerProps) => {
             <div className={classes.logoContainer}>
               <VideoLogo />
               <Typography variant="h6" className={classes.title}>
-                Twilio Programmable Video
+                AnswerBite Meet
               </Typography>
             </div>
           </div>

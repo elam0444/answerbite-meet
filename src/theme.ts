@@ -114,7 +114,7 @@ export default createTheme({
   },
   palette: {
     primary: {
-      main: '#027AC5',
+      main: '#5D6FCA',
     },
   },
   brand: '#E22525',

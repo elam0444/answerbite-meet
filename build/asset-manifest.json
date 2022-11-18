@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.32f81bc4.css",
-    "main.js": "/static/js/main.7aee568d.js",
+    "main.js": "/static/js/main.220b7b3c.js",
     "static/media/Contemporary.jpg": "/static/media/Contemporary.cf81b0403bccc42b006d.jpg",
     "static/media/CozyHome.jpg": "/static/media/CozyHome.2358a4e41e509121f63b.jpg",
     "static/media/CoffeeShop.jpg": "/static/media/CoffeeShop.0bc87a8a29fb60864759.jpg",
@@ -15,16 +15,17 @@
     "static/media/Kitchen.jpg": "/static/media/Kitchen.d07698778b0246076ff7.jpg",
     "static/media/Fishing.jpg": "/static/media/Fishing.5bc4c2060dd7712bdbb1.jpg",
     "static/media/Abstract.jpg": "/static/media/Abstract.bf969afca331e21b140d.jpg",
+    "static/media/answerbite-favicon.png": "/static/media/answerbite-favicon.54c068dca672d2a948f2.png",
     "static/media/Flower.jpg": "/static/media/Flower.0668304c1a2fcee42c02.jpg",
     "static/media/Desert.jpg": "/static/media/Desert.76a1e7e3429badd3a7d4.jpg",
     "static/media/SanFrancisco.jpg": "/static/media/SanFrancisco.5eb64308f3062e27a847.jpg",
     "static/media/google-logo.svg": "/static/media/google-logo.8d51f1707fc814981611c1b7cfe58b88.svg",
     "index.html": "/index.html",
     "main.32f81bc4.css.map": "/static/css/main.32f81bc4.css.map",
-    "main.7aee568d.js.map": "/static/js/main.7aee568d.js.map"
+    "main.220b7b3c.js.map": "/static/js/main.220b7b3c.js.map"
   },
   "entrypoints": [
     "static/css/main.32f81bc4.css",
-    "static/js/main.7aee568d.js"
+    "static/js/main.220b7b3c.js"
   ]
 }
