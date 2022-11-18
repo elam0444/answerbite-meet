@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 const endpoint = process.env.REACT_APP_TOKEN_ENDPOINT || '/token';
+// const endpoint2 = process.env.REACT_APP_RECORDING || '/recordingrules';
 
 export function getPasscode() {
   const match = window.location.search.match(/passcode=(.*)&?/);
